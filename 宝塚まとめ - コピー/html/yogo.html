@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+<title>ヅカ1</title>
+	<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link type="text/css" rel="stylesheet" href="../assets/css/yogo.css">
+	<!-- /styles -->
+
+	<!-- scripts -->
+	<script charset="UTF-8" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script charset="UTF-8" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script charset="UTF-8" src="../assets/js/yogo.js"></script>
+<!-- コメントアウトしてあるコードは、アイコン指定 -->
+<!--
+<link rel="shortcut icon" href="">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="196x196" href="">
+<link rel="apple-touch-icon" sizes="152x152" href="">
+-->
+</head>
+
+<body>
+    <header>
+        <a id="home">宝塚まとめ</a>
+    </header>
+
+    <div class="menu">
+        <p>独特な表現や用語が多い宝塚。知らないよりも知ってる方が断然楽しいので、是非覚えてみてください(*^_^*)</p>
+        <label for="Panel1">音楽学校</label>
+        <input type="checkbox" id="Panel1" class="on-off" />
+            <ul>
+                <li>宝塚音楽学校のこと。宝塚歌劇団員は全員ここで二年間の修行を積んでから晴れてタカラジェンヌになる。
+                ちなみに入学1年目の生徒は「予科生」2年目の生徒は「本科生」と呼ばれる。</li>
+            </ul>
+        <label for="Panel2">組</label>
+        <input type="checkbox" id="Panel2" class="on-off" />
+            <ul>
+                <li>
+                    花月雪星宙のこと。<br>
+                    ・各組特色(組カラー)
+                    <ul>
+                        <li>花：ダンス</li>
+                        <li>月：芝居</li>
+                        <li>雪：日本物</li>
+                        <li>星：コスチューム</li>
+                        <li>宙：コーラス</li>
+                    </ul>
+                </li>
+            </ul>
+        <label for="Panel3">組替え</label>
+        <input type="checkbox" id="Panel3" class="on-off" />
+            <ul>
+                <li>所属する組が変わること。</li>
+            </ul>
+        <label for="Panel4">生徒</label>
+        <input type="checkbox" id="Panel4" class="on-off" />
+            <ul>
+                <li>宝塚歌劇団員のこと。</li>
+            </ul>
+        <label for="Panel5">組子</label>
+        <input type="checkbox" id="Panel5" class="on-off" />
+            <ul>
+                <li>それぞれの組を構成する団員のこと。</li>
+            </ul>
+        <label for="Panel6">組長</label>
+        <input type="checkbox" id="Panel6" class="on-off" />
+            <ul>
+                <li>組子をまとめ、指導するその組の長的存在。基本的にその組の最上級生がなる。</li>
+            </ul>    
+        <label for="Panel7">研○</label>
+        <input type="checkbox" id="Panel7" class="on-off" />
+            <ul>
+                <li>宝塚歌劇団員担ってからの学年のようなもの。入団1年目は「研1」。</li>
+            </ul>    
+        <label for="Panel8">愛称</label>
+        <input type="checkbox" id="Panel8" class="on-off" />
+            <ul>
+                <li>生徒のニックネーム。芸名よりも愛称で呼ぶ方が多い。
+                    <br>例:望海風斗→だいもん
+                </li>
+            </ul>
+        <label for="Panel9">黒燕尾</label>
+        <input type="checkbox" id="Panel9" class="on-off" />
+            <ul>
+                <li>男役群舞。ショーの後半、に行われる男役が大階段場で繰り広げるダンス。基本燕尾服。
+                </li>
+            </ul>    
+        <label for="Panel10">デュエットダンス</label>
+        <input type="checkbox" id="Panel10" class="on-off" />
+            <ul>
+                <li>トップスターと娘役トップスターが行うダンス。基本パレード前に行うダンスをそう呼ぶことが多いような。。
+                </li>
+            </ul>
+        <label for="Panel11">パレード(フィナーレ)</label>
+        <input type="checkbox" id="Panel11" class="on-off" />
+            <ul>
+                <li>ショーの最後に大階段を順番に歌いながら降りてくるあれ。
+                降りてくる順番は(基本的に)エトワール→役の付いている下の学年→三四番手→二番手→娘トップスター→トップスター<br>
+                役が付いていない生徒は集団で降りてきたり降りてこなかったり。
+                </li>
+            </ul>
+        <label for="Panel12">エトワール</label>
+        <input type="checkbox" id="Panel12" class="on-off" />
+            <ul>
+                <li>パレードで一番最初に大階段を降りてきて高らかに歌う人。ちなみに元歌のおねえさんで有名なはいだしょうこさんもエトワール経験者。
+                </li>
+            </ul>
+        <label for="Panel13">シャンシャン</label>
+        <input type="checkbox" id="Panel13" class="on-off" />
+            <ul>
+                <li>パレードのときにみんなが手に持ってる小道具。演目ごとにデザインが凝っていて楽しい。
+                </li>
+            </ul>
+        <label for="Panel14">羽根</label>
+        <input type="checkbox" id="Panel14" class="on-off" />
+            <ul>
+                <li>宝塚といえば、、な背中にしょってる羽根。
+                衣装のデザインによっても変わるが、基本大きい方が番手が上。
+                トップスター＞娘トップ≧二番手＞三番手(≧四番手)
+                </li>
+            </ul>
+        <label for="Panel15">ご贔屓</label>
+        <input type="checkbox" id="Panel15" class="on-off" />
+            <ul>
+                <li>推しメンのこと。宝塚ファン同士の自己紹介は「ご出身は？」の代わりに「ご贔屓は？」
+                </li>
+            </ul>
+        <label for="Panel16">銀橋</label>
+        <input type="checkbox" id="Panel16" class="on-off" />
+            <ul>
+                <li>オーケストラピット(演奏スペース)を囲むような橋状の舞台。花道のようなもの。
+                </li>
+            </ul>
+        <label for="Panel17">ロケット</label>
+        <input type="checkbox" id="Panel17" class="on-off" />
+            <ul>
+                <li>ラインダンスのこと。初舞台を踏む研一が踊る。
+                </li>
+            </ul>
+    </div>
+<footer></footer>
+</body>
+</html>

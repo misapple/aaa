@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	width: auto;
+	height: 35px;
+	background-color: #a04e90;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+.container-fluid {
+	text-align: center;
+	background-color:#F3DEFB;
+	width: auto;
+	height: auto;
+}
+
+/*button設定*/
+/*用語集*/
+button.button0 {
+	padding: 5px 20px;
+	background-color: #ae8dbc;
+	color: #FFFFFF;
+	background-moz-border-radius: 5px;
+    background-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/*演目*/
+button.button1 {
+	padding: 5px 20px;
+	background-color: #ae8dbc;
+	color: #FFFFFF;
+	background-moz-border-radius: 5px;
+    background-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+footer {
+	width: auto;
+	height: 35px;
+	background-color: #a04e90;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-align: right;
+	}

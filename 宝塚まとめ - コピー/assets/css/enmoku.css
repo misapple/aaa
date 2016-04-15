@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	width: auto;
+	height: 35px;
+	background-color: #a04e90;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+/*ヘッダー部リンク色解除*/
+a.home {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.home:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.home:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.home:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.home:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*コンテンツ部*/
+.menu {
+	text-align: left;
+	background-color:#F3DEFB;
+	width: auto;
+	height: auto;
+}
+h2 {
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 25px;
+}
+
+/*アコーディオンメニュー*/
+label {
+    background: #ae8dbc;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    margin: 0;
+    border: 1px solid #fff;
+}
+
+input[type="checkbox"].on-off{
+    display: none;
+}
+
+.menu ul {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 5px;
+}
+
+input[type="checkbox"].on-off + ul{
+    height: 0;
+    overflow: hidden;
+}
+
+input[type="checkbox"].on-off:checked + ul{
+    height: auto;
+}
+
+footer {
+	width: auto;
+	height: 35px;
+	background-color: #a04e90;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-align: right;
+	}
+
+
+a.back {
+	font-size: 18px;
+	padding: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.back:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.back:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.back:hover {
+	text-decoration: none;
+	color: #DADADA;
+}
+a.back:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
